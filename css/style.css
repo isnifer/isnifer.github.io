@@ -366,9 +366,9 @@ body {
 #logo,
 #subtitle {
   text-decoration: none;
-  color: #fff;
+  color: #e6e6e6;
   font-weight: 300;
-  text-shadow: 0 1px 4px rgba(0,0,0,0.3);
+  text-shadow: 0 1px 4px #000;
 }
 #logo {
   font-size: 40px;
@@ -1169,11 +1169,7 @@ a.article-title:hover {
 }
 .article-entry .gist {
   margin: 0 -20px;
-  border-style: solid;
-  border-color: #ddd;
-  border-width: 1px 0;
-  background: #2d2d2d;
-  padding: 15px 20px 15px 0;
+  padding: 0 20px 15px 0;
 }
 .article-entry .gist .gist-file {
   border: none;
@@ -1198,7 +1194,7 @@ a.article-title:hover {
   border: none;
 }
 .article-entry .gist .gist-file .gist-meta {
-  background: #2d2d2d;
+  background-color: transparent;
   color: #999;
   font: 0.85em "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-shadow: 0 0;
